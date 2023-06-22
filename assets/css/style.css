@@ -1055,6 +1055,18 @@ a:hover {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
